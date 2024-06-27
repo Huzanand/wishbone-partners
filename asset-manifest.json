@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/wishbone-partners/static/css/main.69c767ad.css",
+    "main.js": "/wishbone-partners/static/js/main.3c803c92.js",
+    "static/media/hello_image.png": "/wishbone-partners/static/media/hello_image.268a64f30a5d23540ed0.png",
+    "static/media/fs3.png": "/wishbone-partners/static/media/fs3.db0b26ed49a9923750c3.png",
+    "static/media/fs1.png": "/wishbone-partners/static/media/fs1.827510826f47c3dcf7b4.png",
+    "static/media/fs2.png": "/wishbone-partners/static/media/fs2.50773e5c9b479b224272.png",
+    "static/media/gallery1.png": "/wishbone-partners/static/media/gallery1.14ea185e141cf4ef40b9.png",
+    "static/media/gallery2.png": "/wishbone-partners/static/media/gallery2.952464606cacbd6e8290.png",
+    "static/media/gallery3.png": "/wishbone-partners/static/media/gallery3.624e84d33be93a3b05c1.png",
+    "static/media/people3.png": "/wishbone-partners/static/media/people3.7e116465ec85749d9d44.png",
+    "static/media/people6.png": "/wishbone-partners/static/media/people6.e14938d14b36e9c3a3b1.png",
+    "static/media/people2.png": "/wishbone-partners/static/media/people2.88c83572c640e6984b5f.png",
+    "static/media/people4.png": "/wishbone-partners/static/media/people4.a5b924d16f2b4262cea7.png",
+    "static/media/logo.svg": "/wishbone-partners/static/media/logo.01b71c32fc9508e357ecb502357edeea.svg",
+    "static/media/people5.png": "/wishbone-partners/static/media/people5.416cf9a3281fa249425c.png",
+    "static/media/method1.svg": "/wishbone-partners/static/media/method1.bdc968c7aca26d457ba0a4e8b71daf49.svg",
+    "static/media/method3.svg": "/wishbone-partners/static/media/method3.cce71e9306d9d225874eb14ff9c53976.svg",
+    "static/media/method2.svg": "/wishbone-partners/static/media/method2.f7db8da26c7b531220603269493211f3.svg",
+    "index.html": "/wishbone-partners/index.html",
+    "main.69c767ad.css.map": "/wishbone-partners/static/css/main.69c767ad.css.map",
+    "main.3c803c92.js.map": "/wishbone-partners/static/js/main.3c803c92.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69c767ad.css",
+    "static/js/main.3c803c92.js"
+  ]
+}
