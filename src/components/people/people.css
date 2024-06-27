@@ -1,0 +1,33 @@
+.people {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.people__img {
+    width: 84;
+    height: 84px;
+}
+
+.people__img img {
+    width: 100%;
+}
+
+.people__info{
+    margin-left: 2rem;
+}
+
+.people__info p{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 153%;
+    color: var(--color-black);
+}
+
+.people__info p:last-child{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: var(--color-grey);
+}

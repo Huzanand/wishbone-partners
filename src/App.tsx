@@ -1,24 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import {AboutUs, Feedbacks, Footer, Gallery, Header, Navbar, Progress, Team, CTA } from './containers';
+import Fullscreen from './components/fullscreen/Fullscreen';
+import { fs1, fs2, fs3 } from './assets';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Navbar />
+      <Header />
+      {/* <Modal/> */}
+      <AboutUs /> 
+      <Fullscreen imgScr={fs1} title='Reeding House' subtitle='Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.'/>
+      <Progress />
+      <Fullscreen imgScr={fs2} title='Reeding house' subtitle='Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.'/>
+      <Feedbacks />
+      <Fullscreen imgScr={fs3} title='Reeding house' subtitle='Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.' contentPosition='start'/>
+      <Gallery />
+      <Team />
+      <CTA />
+      <Footer />
     </div>
   );
 }

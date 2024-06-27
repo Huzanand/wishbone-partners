@@ -1,0 +1,62 @@
+.app__cta{
+    background-color: var(--bgcolor-crema);
+    width: 100%;
+    padding: 6rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app__cta .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.app__cta-info  h2{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 105%;
+    color: var(--color-black);
+    max-width: 570px;
+}
+
+.app__cta-button {
+    background-color: transparent;
+    margin-top: 2rem;
+    border: none;
+    cursor: pointer;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: var( --color-black);
+}
+
+.app__cta a {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: var( --color-black);
+
+    padding: 1rem 1.4rem;
+}
+
+@media screen and (max-width: 950px) {
+    .app__cta {
+        padding: 6rem 2rem;
+    }
+    .app__cta .container{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .app__cta-info  h2{
+        max-width: 100%;
+    }
+}

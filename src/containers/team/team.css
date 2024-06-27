@@ -1,0 +1,74 @@
+.app__team{
+    padding: 6rem 6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.app__team-info{
+    flex: 1;
+    padding:  0 3rem 0 0;
+}
+
+.app__team-info h2 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 119%;
+    color: var(--color-darkgrey);
+}
+
+.app__team-info p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: var(--color-grey);
+    padding: 1rem 0 2rem;
+}
+
+.app__team-info button {
+    background-color: transparent;
+    border: none;
+}
+
+.app__team-info a {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: var( --color-black);
+
+    padding: 1rem 1.4rem;
+}
+
+.app__team-people{
+    flex: 2 ;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+}
+
+@media screen and (min-width: 1500px){
+    .app__team{
+        padding: 6rem 0;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .app__team-people{
+        flex: 1;
+        grid-template-columns: repeat(1, 1fr)
+    }
+}
+
+@media screen and (max-width: 700px){
+    .app__team{
+        padding: 6rem 2rem;
+        flex-direction: column;
+    }
+
+    .app__team-info{
+        padding: 0 0 2rem 0;
+    }
+}

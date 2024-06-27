@@ -1,0 +1,64 @@
+.app__progress {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 6rem 0;
+}
+.app__progress h2{
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 108%;
+    text-align: center;
+    color: var(--color-black);
+
+    margin-bottom: 3rem;
+    padding: 0 2rem;
+}
+
+.app__progress-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.app__progress-content_card {
+    width: 285px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 1rem 2rem;
+}
+
+.app__progress-content_card img{
+    display: block;
+    width: 117px;
+}
+
+.app__progress-content_card h3 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 144%;
+    text-align: center;
+    color: var(--color-darkgrey);
+    padding: 1rem 0;
+}
+
+.app__progress-content_card p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    text-align: center;
+    color: var(--color-grey);
+}
+
+@media screen and (max-width: 400px){
+    .app__progress-content_card{
+        width: 100%;
+    }
+}
